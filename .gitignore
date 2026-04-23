@@ -1,15 +1,17 @@
-# Environment variables (VERY IMPORTANT)
-.env
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 
-# Logs
-*.log
+# Env
+.env
 
-# OS files
-.DS_Store
+# Cache
+.cache/
 
-# Termux / temp
-*.tmp
+# SSH (VERY IMPORTANT)
+.ssh/
+
+# System
+.gitconfig
+.python_history
+.lesshst
